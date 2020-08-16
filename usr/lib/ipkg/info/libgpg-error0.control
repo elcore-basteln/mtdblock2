@@ -1,0 +1,11 @@
+Package: libgpg-error0
+Version: 1.4-r1
+Description: GPG-Error library
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: libgpg-error
+Homepage: unknown
+Depends: libc6 (>= 2.5)
+Source: ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.4.tar.gz file://pkgconfig.patch;patch=1

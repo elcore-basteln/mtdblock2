@@ -1,0 +1,2 @@
+/sbin/e2fsck
+../bin/busybox 50

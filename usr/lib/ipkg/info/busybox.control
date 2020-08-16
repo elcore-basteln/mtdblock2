@@ -1,0 +1,11 @@
+Package: busybox
+Version: 1.2.1-r15
+Description: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.
+Section: base
+Priority: required
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: busybox
+Homepage: http://www.busybox.net
+Depends: update-rc.d, libc6 (>= 2.5), libgcc1 (>= 4.1.2)
+Source: http://www.busybox.net/downloads/busybox-1.2.1.tar.gz file://busybox-cron file://busybox-httpd file://busybox-udhcpd file://default.script file://dhcp-hostname.patch;patch=1 file://hwclock.sh file://ifupdown-spurious-environ.patch;patch=1 file://mount.busybox file://syslog file://syslog.conf file://udhcpscript.patch;patch=1 file://umount.busybox file://wget-long-options.patch;patch=1 file://df_rootfs.patch;patch=1 file://defconfig

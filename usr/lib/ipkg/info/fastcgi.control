@@ -1,0 +1,11 @@
+Package: fastcgi
+Version: 2.4.0-r1
+Description: Fast CGI backend (web server to CGI handler) library
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: fastcgi
+Homepage: unknown
+Depends: libc6 (>= 2.5), libstdc++6 (>= 4.1.2), libgcc1 (>= 4.1.2)
+Source: http://www.fastcgi.com/dist/fcgi-2.4.0.tar.gz

@@ -1,0 +1,11 @@
+Package: gdbserver
+Version: 6.6-r3
+Description: gdb - GNU debugger
+Section: devel
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: gdb
+Homepage: http://www.gnu.org/software/gdb/
+Depends: libthread-db1 (>= 2.5), libc6 (>= 2.5)
+Source: ftp://ftp.gnu.org/gnu/gdb/gdb-6.6.tar.gz file://kill_arm_map_symbols.patch;patch=1 file://gdbserver-cflags-last.diff;patch=1;pnum=0

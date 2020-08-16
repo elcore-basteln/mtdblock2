@@ -1,0 +1,11 @@
+Package: cron
+Version: 3.0pl1-r8
+Description: Vixie cron.
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: cron
+Homepage: unknown
+Depends: update-rc.d, libc6 (>= 2.5)
+Source: http://ibiblio.org/pub/Linux/system/daemons/cron/cron3.0pl1.tar.gz file://nonrootinstall.patch;patch=1 file://time.patch;patch=1 file://init

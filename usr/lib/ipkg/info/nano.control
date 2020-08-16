@@ -1,0 +1,11 @@
+Package: nano
+Version: 2.0.6-r0
+Description: GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.
+Section: console/utils
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: nano
+Homepage: http://www.nano-editor.org/
+Depends: ncurses (>= 5.4), libc6 (>= 2.5)
+Source: http://www.nano-editor.org/dist/v2.0/nano-2.0.6.tar.gz file://glib.m4

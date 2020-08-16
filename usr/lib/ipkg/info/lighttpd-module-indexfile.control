@@ -1,0 +1,11 @@
+Package: lighttpd-module-indexfile
+Version: 1.4.19-r1
+Description: Lighttpd module for indexfile
+Section: net
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: lighttpd
+Homepage: unknown
+Depends: update-rc.d, libc6 (>= 2.5)
+Source: http://www.lighttpd.net/download/lighttpd-1.4.19.tar.gz file://index.html file://lighttpd.conf file://lighttpd

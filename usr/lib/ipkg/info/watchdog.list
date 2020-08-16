@@ -1,0 +1,3 @@
+/usr/sbin/watchdog
+/usr/sbin/wd_keepalive
+/etc/watchdog.conf

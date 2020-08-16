@@ -1,0 +1,11 @@
+Package: netbase
+Version: 4.21-r26
+Description: This package provides the necessary infrastructure for basic TCP/IP based networking.
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: netbase
+Homepage: unknown
+Depends: update-rc.d
+Source: ftp://ftp.debian.org/debian/pool/main/n/netbase/netbase_4.21.tar.gz file://options file://init file://hosts file://interfaces file://if-pre-up.d file://if-up.d file://if-down.d file://if-post-down.d

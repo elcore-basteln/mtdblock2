@@ -1,0 +1,12 @@
+Package: libcurl4
+Version: 7.16.4-r1
+Description: Command line tool and library for client-side URL transfers.
+Section: console/network
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: curl
+Homepage: unknown
+Depends: libc6 (>= 2.5), libz1 (>= 1.2.3), libgnutls13 (>= 1.6.3), libgcrypt11 (>= 1.2.3), libgpg-error0 (>= 1.4), libgcc1 (>= 4.1.2)
+Recommends: curl-certs
+Source: http://curl.haxx.se/download/curl-7.16.4.tar.bz2

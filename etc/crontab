@@ -1,0 +1,4 @@
+SHELL=/bin/sh
+#
+#M   S T M W   Befehl
+#*/15 * * * *  /etc/init.d/backup-syslog.sh backup

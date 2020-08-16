@@ -1,0 +1,631 @@
+Package: base-files
+Version: 3.0.14-r76
+Status: install user installed
+Architecture: at91sam9263ek
+Description: Miscellaneous files for the base system.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: base-files_3.0.14-r76_at91sam9263ek.ipk
+Installed-Size: 5213
+
+Package: bridge-utils
+Version: 1.2-r0
+Depends: libgcc1 (>= 4.1.2), libc6 (>= 2.5)
+Recommends: kernel-module-bridge
+Status: install user installed
+Architecture: armv5te
+Description: Tools for ethernet bridging.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: console/network
+Size: 13636
+Installed-Size: 28920
+Installed-Time: 1247090412
+
+Package: busybox
+Version: 1.2.1-r15
+Depends: update-rc.d, libc6 (>= 2.5), libgcc1 (>= 4.1.2)
+Status: install user installed
+Architecture: armv5te
+Description: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: busybox_1.2.1-r15_armv5te.ipk
+Installed-Size: 104956033
+
+Package: cron
+Version: 3.0pl1-r8
+Depends: update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Vixie cron.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: cron_3.0pl1-r8_armv5te.ipk
+Installed-Size: 47474
+
+Package: fastcgi
+Version: 2.4.0-r1
+Depends: libc6 (>= 2.5), libstdc++6 (>= 4.1.2), libgcc1 (>= 4.1.2)
+Status: install user installed
+Architecture: armv5te
+Description: Fast CGI backend (web server to CGI handler) library
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: fastcgi_2.4.0-r1_armv5te.ipk
+Installed-Size: 100136
+
+Package: gdbserver
+Version: 6.6-r3
+Depends: libthread-db1 (>= 2.5), libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: gdb - GNU debugger
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: devel
+Filename: gdbserver_6.6-r3_armv5te.ipk
+Installed-Size: 47996
+
+Package: inetutils
+Version: 1.4.2-r0
+Depends: libc6 (>= 2.5), ncurses (>= 5.4)
+Status: install user installed
+Architecture: armv5te
+Description: The GNU inetutils are a collection of common networking utilities and servers including ftp, ftpd, rcp, rexec, rlogin, rlogind, rsh, rshd, syslog, syslogd, talk, talkd, telnet, telnetd, tftp, tftpd, and uucpd.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs
+Filename: inetutils_1.4.2-r0_armv5te.ipk
+Installed-Size: 513841
+
+Package: ipkg
+Version: 0.99.163-r6
+Depends: update-rc.d, libipkg0 (>= 0.99.163), libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Itsy Package Manager
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: ipkg_0.99.163-r6_armv5te.ipk
+Installed-Size: 8306
+
+Package: iptables
+Version: 1.3.8-r1
+Depends: libc6 (>= 2.5), libgcc1 (>= 4.1.2)
+Recommends: kernel-module-ip-tables, kernel-module-iptable-filter
+Status: install user installed
+Architecture: armv5te
+Description: iptables network filtering tools
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: console/utils
+Size: 101514
+Installed-Size: 220476
+Installed-Time: 1247090415
+
+Package: iptables-utils
+Version: 1.3.8-r1
+Depends: libgcc1 (>= 4.1.2), libc6 (>= 2.5)
+Recommends: kernel-module-ip-tables, kernel-module-iptable-filter
+Status: install user installed
+Architecture: armv5te
+Description: iptables network filtering tools
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: console/utils
+Size: 118592
+Installed-Size: 259208
+Installed-Time: 1247090418
+
+Package: libc6
+Version: 2.5-r9
+Status: install user installed
+Architecture: armv5te
+Description: GNU C Library
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs
+Filename: libc6_2.5-r9_armv5te.ipk
+Installed-Size: 5178311
+
+Package: libcrypto0.9.7
+Version: 0.9.7g-r5
+Depends: libc6 (>= 2.5), libgcc1 (>= 4.1.2)
+Status: install user installed
+Architecture: armv5te
+Description: Secure Socket Layer (SSL) binary and related cryptographic tools.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs/network
+Size: 442954
+Installed-Size: 962444
+Installed-Time: 1247090425
+
+Package: libcurl4
+Version: 7.16.4-r1
+Depends: libc6 (>= 2.5), libz1 (>= 1.2.3), libgnutls13 (>= 1.6.3), libgcrypt11 (>= 1.2.3), libgpg-error0 (>= 1.4), libgcc1 (>= 4.1.2)
+Recommends: curl-certs
+Status: install user installed
+Architecture: armv5te
+Description: Command line tool and library for client-side URL transfers.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: console/network
+Size: 105268
+Installed-Size: 401384
+Installed-Time: 1247090450
+
+Package: libgcc1
+Version: 4.1.2-r13
+Depends: libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: The GNU cc and gcc C compilers.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: devel
+Filename: libgcc1_4.1.2-r13_armv5te.ipk
+Installed-Size: 42204
+
+Package: libgcrypt11
+Version: 1.2.3-r1
+Depends: libgpg-error0 (>= 1.4), libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: A general purpose cryptographic library based on the code from GnuPG
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs
+Size: 168852
+Installed-Size: 601504
+Installed-Time: 1247090443
+
+Package: libgnutls13
+Version: 1.6.3-r3
+Depends: libc6 (>= 2.5), libz1 (>= 1.2.3), libgcrypt11 (>= 1.2.3), libgpg-error0 (>= 1.4)
+Status: install user installed
+Architecture: armv5te
+Description: GNU Transport Layer Security Library
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Size: 200118
+Installed-Size: 913904
+Installed-Time: 1247090447
+
+Package: libgpg-error0
+Version: 1.4-r1
+Depends: libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: GPG-Error library
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs
+Size: 5848
+Installed-Size: 23392
+Installed-Time: 1247090439
+
+Package: libipkg0
+Version: 0.99.163-r6
+Depends: update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Itsy Package Manager Library
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: libipkg0_0.99.163-r6_armv5te.ipk
+Installed-Size: 280280
+
+Package: liblzo1
+Version: 1.08-r14
+Depends: libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Lossless data compression library
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs
+Size: 48664
+Installed-Size: 236472
+Installed-Time: 1247090428
+
+Package: libssl0.9.7
+Version: 0.9.7g-r5
+Depends: libcrypto0.9.7 (>= 0.9.7g), libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Secure Socket Layer (SSL) binary and related cryptographic tools.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs/network
+Size: 83444
+Installed-Size: 174712
+Installed-Time: 1247090430
+
+Package: libthread-db1
+Version: 2.5-r9
+Depends: libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: GNU C Library
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs
+Filename: libthread-db1_2.5-r9_armv5te.ipk
+Installed-Size: 52632
+
+Package: libz1
+Version: 1.2.3-r2
+Depends: libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Zlib Compression Library
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs
+Filename: libz1_1.2.3-r2_armv5te.ipk
+Installed-Size: 131576
+
+Package: lighttpd
+Version: 1.4.19-r1
+Depends: update-rc.d, libc6 (>= 2.5), libgcc1 (>= 4.1.2)
+Status: install user installed
+Architecture: armv5te
+Description: Web server
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: net
+Filename: lighttpd_1.4.19-r1_armv5te.ipk
+Installed-Size: 166027
+
+Package: lighttpd-module-access
+Version: 1.4.19-r1
+Depends: update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Lighttpd module for access
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: net
+Size: 3262
+Installed-Size: 4888
+Installed-Time: 1247090451
+
+Package: lighttpd-module-accesslog
+Version: 1.4.19-r1
+Depends: update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Lighttpd module for accesslog
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: net
+Filename: lighttpd-module-accesslog_1.4.19-r1_armv5te.ipk
+Installed-Size: 12016
+
+Package: lighttpd-module-cgi
+Version: 1.4.19-r1
+Depends: update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Lighttpd module for cgi
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: net
+Filename: lighttpd-module-cgi_1.4.19-r1_armv5te.ipk
+Installed-Size: 17484
+
+Package: lighttpd-module-dirlisting
+Version: 1.4.19-r1
+Depends: update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Lighttpd module for dirlisting
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: net
+Filename: lighttpd-module-dirlisting_1.4.19-r1_armv5te.ipk
+Installed-Size: 14724
+
+Package: lighttpd-module-fastcgi
+Version: 1.4.19-r1
+Depends: update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Lighttpd module for fastcgi
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: net
+Filename: lighttpd-module-fastcgi_1.4.19-r1_armv5te.ipk
+Installed-Size: 43636
+
+Package: lighttpd-module-indexfile
+Version: 1.4.19-r1
+Depends: update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Lighttpd module for indexfile
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: net
+Filename: lighttpd-module-indexfile_1.4.19-r1_armv5te.ipk
+Installed-Size: 5760
+
+Package: lighttpd-module-rewrite
+Version: 1.4.19-r1
+Depends: update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Lighttpd module for rewrite
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: net
+Filename: lighttpd-module-rewrite_1.4.19-r1_armv5te.ipk
+Installed-Size: 5284
+
+Package: lighttpd-module-staticfile
+Version: 1.4.19-r1
+Depends: update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Lighttpd module for staticfile
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: net
+Filename: lighttpd-module-staticfile_1.4.19-r1_armv5te.ipk
+Installed-Size: 9932
+
+Package: makedevs
+Version: 1.0.0-r5
+Depends: libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: A tool to make device nodes
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: makedevs_1.0.0-r5_armv5te.ipk
+Installed-Size: 7864
+
+Package: nano
+Version: 2.0.6-r0
+Depends: ncurses (>= 5.4), libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: console/utils
+Filename: nano_2.0.6-r0_armv5te.ipk
+Installed-Size: 225592
+
+Package: ncurses
+Version: 5.4-r10
+Depends: libc6 (>= 2.5)
+Suggests: ncurses-terminfo
+Provides: libncurses5
+Status: install user installed
+Architecture: armv5te
+Description: Ncurses library
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs
+Filename: ncurses_5.4-r10_armv5te.ipk
+Installed-Size: 852892
+
+Package: netbase
+Version: 4.21-r26
+Depends: update-rc.d
+Status: install user installed
+Architecture: armv5te
+Description: This package provides the necessary infrastructure for basic TCP/IP based networking.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: netbase_4.21-r26_armv5te.ipk
+Installed-Size: 32123
+
+Package: ntpclient
+Version: 2003_194-r1
+Depends: busybox, update-rc.d, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: NTP (RFC-1305) client for unix-alike computers
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: admin
+Filename: ntpclient_2003_194-r1_armv5te.ipk
+Installed-Size: 25150
+
+Package: openssh-sshd
+Version: 4.6p1-r3
+Depends: update-rc.d, libcrypto0.9.7 (>= 0.9.7g), libc6 (>= 2.5), libz1 (>= 1.2.3)
+Conflicts: dropbear
+Status: install user installed
+Architecture: armv5te
+Description: Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is a program for logging into a remote machine and for executing commands on a remote machine. It provides secure encrypted communications between two untrusted hosts over an insecure network.  X11 connections and arbitrary TCP/IP ports can also be forwarded over the secure channel. It is intended as a replacement for rlogin, rsh and rcp, and can be used to provide applications with a secure communication channel.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: console/network
+Size: 194516
+Installed-Size: 499571
+Installed-Time: 1247090434
+
+Package: openssl
+Version: 0.9.7g-r5
+Depends: libssl0.9.7 (>= 0.9.7g), libcrypto0.9.7 (>= 0.9.7g), libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: Secure Socket Layer (SSL) binary and related cryptographic tools.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: libs/network
+Size: 148140
+Installed-Size: 312804
+Installed-Time: 1247090438
+
+Package: sysvinit
+Version: 2.86-r36
+Depends: sysvinit-inittab, libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: System-V like init.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: sysvinit_2.86-r36_armv5te.ipk
+Installed-Size: 106342
+
+Package: sysvinit-inittab
+Version: 2.86-r36
+Status: install user installed
+Architecture: at91sam9263ek
+Description: System-V like init.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: sysvinit-inittab_2.86-r36_at91sam9263ek.ipk
+Installed-Size: 845
+
+Package: sysvinit-pidof
+Version: 2.86-r36
+Depends: sysvinit
+Status: install user installed
+Architecture: armv5te
+Description: System-V like init.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: sysvinit-pidof_2.86-r36_armv5te.ipk
+Installed-Size: 9264
+
+Package: sysvinit-sulogin
+Version: 2.86-r36
+Depends: libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: System-V like init.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: sysvinit-sulogin_2.86-r36_armv5te.ipk
+Installed-Size: 10024
+
+Package: tinylogin
+Version: 1.4-r4
+Depends: libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: TinyLogin is a suite of tiny UNIX utilities for handling logins, user authentication, changing passwords, and otherwise maintaining users and groups on an embedded system.
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: tinylogin_1.4-r4_armv5te.ipk
+Installed-Size: 39452
+
+Package: tzdata
+Version: 2007e-r1
+Provides: tzdata
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install user installed
+Architecture: armv5te
+Description: Timezone data
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: tzdata_2007e-r1_armv5te.ipk
+Installed-Size: 77601
+
+Package: tzdata-africa
+Version: 2007e-r1
+Provides: tzdata-africa
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install user installed
+Architecture: armv5te
+Description: Timezone data
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: tzdata-africa_2007e-r1_armv5te.ipk
+Installed-Size: 16559
+
+Package: tzdata-americas
+Version: 2007e-r1
+Provides: tzdata-americas
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install user installed
+Architecture: armv5te
+Description: Timezone data
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: tzdata-americas_2007e-r1_armv5te.ipk
+Installed-Size: 272493
+
+Package: tzdata-antarctica
+Version: 2007e-r1
+Provides: tzdata-antarctica
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install user installed
+Architecture: armv5te
+Description: Timezone data
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: tzdata-antarctica_2007e-r1_armv5te.ipk
+Installed-Size: 13747
+
+Package: tzdata-asia
+Version: 2007e-r1
+Provides: tzdata-asia
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install user installed
+Architecture: armv5te
+Description: Timezone data
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: tzdata-asia_2007e-r1_armv5te.ipk
+Installed-Size: 125482
+
+Package: tzdata-atlantic
+Version: 2007e-r1
+Provides: tzdata-atlantic
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install user installed
+Architecture: armv5te
+Description: Timezone data
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: tzdata-atlantic_2007e-r1_armv5te.ipk
+Installed-Size: 20316
+
+Package: tzdata-australia
+Version: 2007e-r1
+Provides: tzdata-australia
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install user installed
+Architecture: armv5te
+Description: Timezone data
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: tzdata-australia_2007e-r1_armv5te.ipk
+Installed-Size: 30516
+
+Package: tzdata-europe
+Version: 2007e-r1
+Provides: tzdata-europe
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install user installed
+Architecture: armv5te
+Description: Timezone data
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: tzdata-europe_2007e-r1_armv5te.ipk
+Installed-Size: 131936
+
+Package: tzdata-pacific
+Version: 2007e-r1
+Provides: tzdata-pacific
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install user installed
+Architecture: armv5te
+Description: Timezone data
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: tzdata-pacific_2007e-r1_armv5te.ipk
+Installed-Size: 20459
+
+Package: update-alternatives-cworth
+Version: 0.99.154-r0
+Provides: update-alternatives
+Status: install user installed
+Architecture: all
+Description: Version 0.99.154-r0 of package update-alternatives-cworth
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: update-alternatives-cworth_0.99.154-r0_all.ipk
+Installed-Size: 4248
+
+Package: update-rc.d
+Version: 0.7-r1
+Status: install user installed
+Architecture: all
+Description: Manage symlinks in /etc/rcN.d
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: update-rc.d_0.7-r1_all.ipk
+Installed-Size: 4409
+
+Package: watchdog
+Version: 5.3.1-r1
+Depends: libc6 (>= 2.5)
+Status: install user installed
+Architecture: armv5te
+Description: System watchdog daemon
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Section: base
+Filename: watchdog_5.3.1-r1_armv5te.ipk
+Installed-Size: 76275
+Installed-Time: 1247155254
+

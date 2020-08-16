@@ -1,0 +1,11 @@
+Package: libipkg0
+Version: 0.99.163-r6
+Description: Itsy Package Manager Library
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: ipkg
+Homepage: unknown
+Depends: update-rc.d, libc6 (>= 2.5)
+Source: http://www.handhelds.org/pub/packages/ipkg/ipkg-0.99.163.tar.gz file://ipkg-configure file://terse.patch;patch=1 file://is-processing.patch;patch=1 file://1-pkg-parse--Optimize-inefficient-parsing.patch;patch=1 file://2-pkg-vec--Optimize-gross-inefficiency.patch;patch=1 file://lonk-link-name.patch;patch=1

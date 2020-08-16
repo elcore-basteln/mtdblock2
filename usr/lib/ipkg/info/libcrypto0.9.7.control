@@ -1,0 +1,11 @@
+Package: libcrypto0.9.7
+Version: 0.9.7g-r5
+Description: Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: openssl
+Homepage: http://www.openssl.org/
+Depends: libc6 (>= 2.5), libgcc1 (>= 4.1.2)
+Source: http://www.openssl.org/source/openssl-0.9.7g.tar.gz file://debian.patch;patch=1 file://armeb.patch;patch=1;pnum=0 file://gnueabi-arm.patch;patch=1 file://gnueabi-armeb.patch;patch=1 file://uclibcgnueabi.patch;patch=1

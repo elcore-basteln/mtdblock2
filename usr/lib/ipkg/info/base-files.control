@@ -1,0 +1,10 @@
+Package: base-files
+Version: 3.0.14-r76
+Description: Miscellaneous files for the base system.
+Section: base
+Priority: required
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: at91sam9263ek
+OE: base-files
+Homepage: unknown
+Source: file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/BSD file://licenses/GPL-2 file://licenses/LGPL-2 file://licenses/LGPL-2.1 file://licenses/Artistic

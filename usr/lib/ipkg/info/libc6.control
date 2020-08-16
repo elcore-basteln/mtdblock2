@@ -1,0 +1,10 @@
+Package: libc6
+Version: 2.5-r9
+Description: GNU C Library
+Section: libs
+Priority: required
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: glibc
+Homepage: http://www.gnu.org/software/libc/libc.html
+Source: ftp://ftp.gnu.org/pub/gnu/glibc/glibc-2.5.tar.bz2 ftp://ftp.gnu.org/pub/gnu/glibc/glibc-ports-2.5.tar.bz2 ftp://ftp.gnu.org/pub/gnu/glibc/glibc-libidn-2.5.tar.bz2 file://arm-memcpy.patch;patch=1 file://arm-longlong.patch;patch=1 file://fhs-linux-paths.patch;patch=1 file://dl-cache-libcmp.patch;patch=1 file://ldsocache-varrun.patch;patch=1 file://nptl-crosscompile.patch;patch=1 file://glibc-2.5-local-dynamic-resolvconf.patch;patch=1 file://glibc-check_pf.patch;patch=1;pnum=0 file://zecke-sane-readelf.patch;patch=1 file://ldd-unbash.patch;patch=1 file://generic-bits_select.h file://generic-bits_types.h file://generic-bits_typesizes.h file://generic-bits_time.h file://etc/ld.so.conf file://generate-supported.mk

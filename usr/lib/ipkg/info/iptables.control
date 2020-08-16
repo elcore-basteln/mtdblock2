@@ -1,0 +1,12 @@
+Package: iptables
+Version: 1.3.8-r1
+Description: iptables network filtering tools
+Section: console/utils
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: iptables
+Homepage: http://www.netfilter.org/
+Depends: libc6 (>= 2.5), libgcc1 (>= 4.1.2)
+Recommends: kernel-module-ip-tables, kernel-module-iptable-filter
+Source: http://netfilter.org/projects/iptables/files/iptables-1.3.8.tar.bz2 file://getsockopt-failed.patch;patch=1

@@ -1,0 +1,11 @@
+Package: watchdog
+Version: 5.3.1-r1
+Description: System watchdog daemon
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: watchdog
+Homepage: unknown
+Depends: libc6 (>= 2.5)
+Source: http://www.ibiblio.org/pub/Linux/system/daemons/watchdog/watchdog_5.3.1.tar.gz

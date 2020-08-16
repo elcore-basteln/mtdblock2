@@ -1,0 +1,6 @@
+/usr/share/ipkg/intercept/depmod
+/usr/share/ipkg/intercept/ldconfig
+/usr/share/ipkg/intercept/update-modules
+/usr/bin/ipkg-cl
+/usr/bin/update-alternatives
+/etc/init.d/ipkg-configure

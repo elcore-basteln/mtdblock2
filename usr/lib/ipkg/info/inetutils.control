@@ -1,0 +1,11 @@
+Package: inetutils
+Version: 1.4.2-r0
+Description: The GNU inetutils are a collection of common networking utilities and servers including ftp, ftpd, rcp, rexec, rlogin, rlogind, rsh, rshd, syslog, syslogd, talk, talkd, telnet, telnetd, tftp, tftpd, and uucpd.
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: inetutils
+Homepage: unknown
+Depends: libc6 (>= 2.5), ncurses (>= 5.4)
+Source: ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.4.2.tar.gz file://configure.patch;patch=1 file://inetutils-1.4.2-gcc4_fixes-3.patch;patch=1

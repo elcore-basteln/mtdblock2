@@ -1,0 +1,2 @@
+/sbin/halt
+halt.sysvinit 200

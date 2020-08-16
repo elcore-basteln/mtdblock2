@@ -1,0 +1,11 @@
+Package: tinylogin
+Version: 1.4-r4
+Description: TinyLogin is a suite of tiny UNIX utilities for handling logins, user authentication, changing passwords, and otherwise maintaining users and groups on an embedded system.
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: tinylogin
+Homepage: http://tinylogin.busybox.net/
+Depends: libc6 (>= 2.5)
+Source: http://tinylogin.busybox.net/downloads/tinylogin-1.4.tar.bz2 file://cvs-20040608.patch;patch=1;pnum=1 file://add-system.patch;patch=1;pnum=1 file://adduser-empty_pwd.patch;patch=1 file://remove-index.patch;patch=1

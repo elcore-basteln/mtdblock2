@@ -1,0 +1,5 @@
+/usr/bin/spawn-fcgi
+/etc/init.d/lighttpd
+/usr/sbin/lighttpd-angel
+/etc/lighttpd.conf
+/usr/sbin/lighttpd

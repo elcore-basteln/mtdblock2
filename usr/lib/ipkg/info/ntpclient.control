@@ -1,0 +1,11 @@
+Package: ntpclient
+Version: 2003_194-r1
+Description: NTP (RFC-1305) client for unix-alike computers
+Section: admin
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+Architecture: armv5te
+OE: ntpclient
+Homepage: http://doolittle.icarus.com/ntpclient
+Depends: busybox, update-rc.d, libc6 (>= 2.5)
+Source: http://doolittle.icarus.com/ntpclient/ntpclient_2003_194.tar.gz file://init

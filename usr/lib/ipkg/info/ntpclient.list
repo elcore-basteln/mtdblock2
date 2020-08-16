@@ -1,0 +1,4 @@
+/etc/init.d/ntpclient
+/sbin/ntpclient
+/sbin/adjtimex
+/usr/sbin/ntpclient-drift-rate.awk

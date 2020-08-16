@@ -1,0 +1,2 @@
+/sbin/mkfs.ext3
+../bin/busybox 50

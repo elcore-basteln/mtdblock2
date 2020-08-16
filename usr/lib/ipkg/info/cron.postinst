@@ -1,0 +1,7 @@
+update-rc.d cron defaults 65
+if test "x$D" != "x"; then
+	OPT="-r $D"
+else
+	OPT="-s"
+fi
+update-rc.d $OPT cron defaults

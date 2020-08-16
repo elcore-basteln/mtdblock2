@@ -1,0 +1,17 @@
+/sbin/halt.sysvinit
+/sbin/runlevel
+/usr/bin/wall.sysvinit
+/etc/default/rcS
+/etc/init.d/rc
+/usr/bin/utmpdump
+/sbin/shutdown.sysvinit
+/bin/mountpoint
+/etc/init.d/rcS
+/usr/bin/mesg.sysvinit
+/sbin/reboot.sysvinit
+/usr/bin/lastb
+/sbin/poweroff
+/usr/bin/last.sysvinit
+/sbin/telinit
+/sbin/init.sysvinit
+/sbin/killall5
